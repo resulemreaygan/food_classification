@@ -1,0 +1,21 @@
+"""
+Author: Resul Emre AYGAN
+"""
+
+
+class AllConstant:
+    def __init__(self):
+        self.train_set = r""
+        self.validation_set = r""
+        self.evaluation_set = r""
+        self.checkpoints_path = r""
+        self.input_shape = (224, 224)
+        self.weight_path = r""
+        self.lr = 0.0001
+        self.batch_size = 32
+        self.epochs = 750
+        self.train = False
+        self.predict = True
+        self.evaluation = False
+        self.model_type = "VGG19"  # "VGG16"
+        self.predict_path = r""
