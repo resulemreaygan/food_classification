@@ -13,6 +13,9 @@ pip install tensorflow-gpu~=2.5.0
 pip install scikit-learn~=0.24.2
 ```
 
+NVIDIA Driver Version: 460.84       
+CUDA Version: 11.2
+
 ## Dataset
 
 [Food-11 Image Dataset](https://www.kaggle.com/trolukovich/food11-image-dataset
